@@ -4477,3 +4477,8 @@ html[data-tema="oscuro"] .buzon__error { color: #ffd2d8; background: rgba(224, 1
   font-family: var(--titulos); font-size: .8rem; font-weight: 700;
   letter-spacing: .02em; color: var(--tinta-2);
 }
+
+/* Video filmado con el celular en vertical: angosto, para que no ocupe
+   toda la pantalla de alto. */
+.video--vertical { max-width: 20rem; }
+.video--vertical .video__archivo { aspect-ratio: 9 / 16; height: auto; object-fit: contain; background: #000; }
